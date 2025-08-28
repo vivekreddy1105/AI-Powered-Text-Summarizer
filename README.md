@@ -83,7 +83,7 @@ pip install torch transformers gradio
 
 Here’s an example of the summarizer in action:
 
-![Testing Screenshot](assets/testing.png)
+![Testing Screenshot](Images/Huggingface Test.png)
 
 
 **© Vivek Reddy**<br>
