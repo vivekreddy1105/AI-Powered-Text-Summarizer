@@ -1,6 +1,6 @@
+# AI-Powered Text Summarizer
 
-
-#  AI-Powered Text Summarizer
+🔗 **Live Demo on Hugging Face Spaces**: [Text Summarizer](https://huggingface.co/spaces/vivekreddy1105/TextSummarizer)
 
 ## **Objective**
 
@@ -16,7 +16,6 @@ This project implements an **AI-powered text summarizer** using transformer-base
 * ✅ Includes **truncation safeguards** and **runtime warnings**.
 * ✅ Interactive **Gradio interface** with tabs for single and batch input.
 * ✅ Debug accordion showing runtime configuration and copyright.
-* ✅ Integrated **ROUGE evaluation support** (if dependencies are installed).
 
 ---
 
@@ -31,7 +30,7 @@ This project implements an **AI-powered text summarizer** using transformer-base
 Create a virtual environment and install dependencies:
 
 ```bash
-pip install torch transformers gradio 
+pip install torch transformers gradio
 ```
 
 ---
@@ -77,11 +76,10 @@ pip install torch transformers gradio
 * Multiple texts handled via `summarize_batch()` and `summarize_multi()`.
 * Input documents must be separated by a line with `---`.
 
-
- **© Vivek Reddy**<br>
- 🔗 [GitHub](https://github.com/vivekreddy1105)
- 🔗 [LinkedIn](https://linkedin.com/in/vivekreddy1105)
-
 ---
 
+**© Vivek Reddy**<br>
+🔗 [GitHub](https://github.com/vivekreddy1105)
+🔗 [LinkedIn](https://linkedin.com/in/vivekreddy1105)
 
+---
