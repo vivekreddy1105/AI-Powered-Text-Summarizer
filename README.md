@@ -78,7 +78,7 @@ pip install torch transformers gradio
 * Input documents must be separated by a line with `---`.
 
 
- **© Vivek Reddy**
+ **© Vivek Reddy**\n
  🔗 [GitHub](https://github.com/vivekreddy1105)
  🔗 [LinkedIn](https://linkedin.com/in/vivekreddy1105)
 
