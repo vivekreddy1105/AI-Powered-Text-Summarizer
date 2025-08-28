@@ -76,10 +76,8 @@ pip install torch transformers gradio
 * Multiple texts handled via `summarize_batch()` and `summarize_multi()`.
 * Input documents must be separated by a line with `---`.
 
-
+---
 
 **© Vivek Reddy**<br>
 🔗 [GitHub](https://github.com/vivekreddy1105)
 🔗 [LinkedIn](https://linkedin.com/in/vivekreddy1105)
-
----
