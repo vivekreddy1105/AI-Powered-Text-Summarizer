@@ -77,6 +77,14 @@ pip install torch transformers gradio
 * Input documents must be separated by a line with `---`.
 
 ---
+---
+
+## **Testing / Demo**
+
+Here’s an example of the summarizer in action:
+
+![Testing Screenshot](assets/testing.png)
+
 
 **© Vivek Reddy**<br>
 🔗 [GitHub](https://github.com/vivekreddy1105)
