@@ -31,26 +31,8 @@ This project implements an **AI-powered text summarizer** using transformer-base
 Create a virtual environment and install dependencies:
 
 ```bash
-pip install torch transformers gradio evaluate
+pip install torch transformers gradio 
 ```
-
-> ⚠️ If ROUGE evaluation fails, install missing metrics:
-
-```bash
-pip install absl-py rouge-score
-```
-
----
-
-## **Usage**
-
-### Run the application
-
-```bash
-python app.py
-```
-
-This launches a **Gradio web app** at `http://127.0.0.1:7860`.
 
 ---
 
@@ -95,42 +77,6 @@ This launches a **Gradio web app** at `http://127.0.0.1:7860`.
 * Multiple texts handled via `summarize_batch()` and `summarize_multi()`.
 * Input documents must be separated by a line with `---`.
 
----
-
-## **Optional: ROUGE Evaluation**
-
-The code integrates Hugging Face’s `evaluate` library to load **ROUGE metrics** for measuring summary quality (requires `rouge-score` package).
-
-Example:
-
-```python
-from evaluate import load
-rouge = load("rouge")
-results = rouge.compute(predictions=[summary], references=[reference])
-```
-
----
-
-## **Deliverables**
-
-* **Code** (`app.py`): Implements the summarizer with Gradio UI.
-* **requirements.txt**: Lists dependencies.
-* **Documentation**: Explains setup, usage, and implementation.
-
----
-
-## **Evaluation Criteria**
-
-* ✔️ **Correct functionality**: Summaries constrained to 3–5 sentences.
-* ✔️ **NLP model usage**: Transformer-based abstractive summarization.
-* ✔️ **Batch support**: Multiple articles handled seamlessly.
-* ✔️ **Code quality**: Modular, error-handled, GPU support.
-* ✔️ **Documentation clarity**: Setup + usage explained.
-* ⭐ Optional: Web interface, runtime warnings, ROUGE integration.
-
----
-
-## **Author**
 
 * **© Vivek Reddy**
 * 🔗 [GitHub](https://github.com/vivekreddy1105)
