@@ -25,7 +25,7 @@ if not _raw_model_max or _raw_model_max > 100000:
 else:
     SAFE_MAX_INPUT_LEN = min(CHUNK_TOKEN_TARGET, _raw_model_max)
 
-rouge_metric = evaluate.load("rouge")
+#rouge_metric = evaluate.load("rouge")
 
 
 def sent_split(text: str) -> List[str]:
