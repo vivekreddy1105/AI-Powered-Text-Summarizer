@@ -117,7 +117,7 @@ def summarize_multi(input_blob: str) -> str:
     return "\n\n".join(outs)
 
 
-with gr.Blocks(title="AI Text Summarizer with ROUGE") as demo:
+with gr.Blocks(title="AI Text Summarizer") as demo:
     gr.Markdown(
         "# AI Text Summarizer\nSummarizes long documents "
     )
